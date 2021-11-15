@@ -26,14 +26,14 @@
     <meta property="og:url" content="">
     <meta property="og:title" content="R Estudio MX">
     <meta property="og:description" content="Taller de visualización arquitectónica Mexicano.">
-    <meta property="og:img" content="">
+    <meta property="og:img" content="./assets/RE_logo_001.jpg">
     
     <!-- Open Graph / Twitter -->
     <meta property="twitter:card" content="website">
     <meta property="twitter:url" content="">
     <meta property="twitter:title" content="R Estudio MX">
     <meta property="twitter:description" content="Taller de visualización arquitectónica Mexicano.">
-    <meta property="twitter:img" content="">
+    <meta property="twitter:img" content="./assets/RE_logo_001.jpg">
     <!-- meta etiquetas -->
 </head>
 
@@ -41,8 +41,8 @@
     <header class="header">
         <nav class="contenedor menu-nav" id="aboutMe2">
             <ul class="nav__link nav__link--menu">
-                <li><a href="./index.html">Servicios</a></li>
-                <li><a href="#">Portafolio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
                 <li><a href="#contacto">Contacto</a></li>
                 <img class="nav__close" src="assets/x.svg" alt="close, x">
             </ul>
@@ -65,7 +65,7 @@
         <!-- Servicios -->
         <section class="contenedor bienvenido">
             <!-- h2.titulo-seccion{Bienvenido}+p{lorem}+.beneficios>(.beneficio>h3{Beneficio})*3 -->
-            <h2 class="titulo-seccion" id="perfil">Servicios</h2>
+            <h2 class="titulo-seccion" id="servicios">Servicios</h2>
             <!-- <p class="copy">
                 Agricultural technician. | Engineering student <abbr title="Chemical Engineering">I.Q.</abbr>
             </p> -->
@@ -77,7 +77,7 @@
                     <a href="#"><h3>Imágenes 360 grados</h3></a>
                 </div>
                 <div class="beneficio extra">
-                    <a href="#"><h3>Extracurricular activities</h3></a>
+                    <a href="#"><h3>Modelado, renderizado y posproducción</h3></a>
                 </div>
             </div>
         </section>
@@ -85,22 +85,24 @@
 
         <!-- Portafolio -->
         <section class="projects">
-            <div class="contenedor contenedor__pasatiempos" id="pasatiempos">
+            <div class="contenedor contenedor__pasatiempos" id="portafolio">
                 <h2 class="titulo-seccion">Portafolio</h2>
                 <div class="slider__container container">
                     <img class="slider__arrow" src="assets/RE__left_arrow.svg" alt="" id="before">
                     <section class="slider__body slider__body--show" data-id="1">
                         <div class="slider__texts">
-                            <h2 class="copy">Residencia H-PV18</h2>
+                            <h2 class="copy"><a href="HpV18.html">Residencia H-PV18</a></h2>
                             <p class="copy__item">
                                 Colaboración en el diseño e interiorismo de casa habitación para el centro del país (México). <br><br> Modelado 3D, renderizado y posproducción.
                             </p>
                         </div>
                         <figure class="slider__picture">
-                            <img 
-                            src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/67f4bd70236859.5b9ca1487361c.jpg" 
-                            alt="Fachada Residencia H-PV18" 
-                            class="slider__img">
+                            <a href="HpV18.html">
+                                <img 
+                                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/67f4bd70236859.5b9ca1487361c.jpg" 
+                                alt="Fachada Residencia H-PV18" 
+                                class="slider__img">
+                            </a>
                         </figure>
                     </section>
                     <section class="slider__body" data-id="2">

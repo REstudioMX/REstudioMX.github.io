@@ -50,6 +50,8 @@
 
     --maxWidth: 1350px;
     /* ----- Espaciados ----- */
+
+    --border-radius: 20%;
 }
 
 html {
@@ -66,7 +68,7 @@ body {
 
     background-color: #f1f1f6;
     opacity: 1;
-    background-image: radial-gradient(#ecbd2d 0.75px, #f1f1f6 0.75px);
+    background-image: radial-gradient(rgb(117, 128, 130) 0.75px, #f1f1f6 0.75px);
     background-size: 20px 20px;
 }
 
@@ -250,18 +252,6 @@ header {
     padding: var(--pddngSecciones);
 }
 
-/* .menu-nav {
-    padding: 0;
-    width: 90%;
-    background-color: var(--clrFondo3);
-    height: 16rem;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 20px; */
-} */
-
 .logo {
     height: 16rem;
 }
@@ -300,23 +290,6 @@ header {
 .bienvenido {
     background-color: var(--clrFondo3);
 }
-
-/* .hero {
-    width: 90%;
-    max-width: var(--maxWidth);
-    margin: 0 auto;
-    /* padding: var(--pddngSecciones); */
-    
-    height: 800px;
-    
-    background-image: 
-        linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, .55)50%), 
-        url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/5ddfce128113905.614f93dd701ee.jpg");
-    
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-} */
 
 .contenedor-textos {
     padding: 0;
@@ -447,7 +420,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 20%;
     font-size: var(--medium);
 }
 
@@ -560,7 +533,7 @@ header {
     /* border-radius: 50%; */
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: var(--border-radius);
 }
 
 .slider__arrow {
@@ -594,7 +567,7 @@ header {
     box-shadow: 1px 1px 1px 0px rgb(90, 90, 90, .95);
 
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: var(--border-radius);
 }
 
 .recomendacion__container {
