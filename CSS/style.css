@@ -394,6 +394,16 @@ header {
     /* flex-wrap: wrap; */
 }
 
+.copy a {
+    color: var(--clrTextos);
+    text-shadow: 3px 3px 9px rgba(68, 119, 139, 0.6);
+    text-decoration: none;
+}
+
+.copy a:hover {
+    text-decoration: underline;
+}
+
 .beneficios a {
     color: var(--clrTextos2);
     text-shadow: 3px 3px 9px rgba(68, 119, 139, 0.6);
