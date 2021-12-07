@@ -106,7 +106,7 @@ header {
     width: 100%;
     background-image: 
         linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(90, 90, 90, .4)100%), 
-        url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/5ddfce128113905.614f93dd701ee.jpg');
+        url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/3026f7132710005.61aec99c15838.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -729,7 +729,8 @@ footer .contenedor {
     background: var(--clrÉnfasis);
 }
 
-footer .titulo-seccion, footer .copy {
+footer .titulo-seccion {
+    margin-top: 3rem;
     /* color: var(--clrTextos2); */
 }
 
@@ -740,7 +741,7 @@ footer .titulo-seccion, footer .copy {
     
     display: flex;
     margin: auto;
-    margin-top: 90px;
+    /* margin: 90px 0; */
     justify-content: space-evenly;
 }
 
@@ -756,6 +757,10 @@ footer .titulo-seccion, footer .copy {
     /* margin: var(--mgnSubtítulos); */
     margin-top: 5rem;
     font-size: var(--medium);
+}
+
+.contenedor .titulo-seccion {
+    margin: 8rem;
 }
 /* -------------------- Footer -------------------- */
 

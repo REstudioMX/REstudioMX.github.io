@@ -130,7 +130,8 @@ header {
 .av001 {
     background-image: 
         linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(90, 90, 90, .4)100%), 
-        url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/d98571128113905.614f93dd71e62.jpg');
+        url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/d05601132710005.61aec99c1671d.jpg');
+    background-position: bottom;
 }
 
 .mobiliario {
@@ -376,5 +377,9 @@ footer .titulo-seccion, footer .copy {
 
 .titulo-seccion a:hover {
     text-decoration: underline;
+}
+
+.contenedor .titulo-seccion {
+    margin: 8rem;
 }
 /* -------------------- Footer -------------------- */
